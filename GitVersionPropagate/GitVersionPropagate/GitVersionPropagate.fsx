@@ -1,4 +1,6 @@
-﻿(*
+﻿//Copyright © 2016 Dominik Pytlewski. Licensed under Apache License 2.0. See LICENSE file for details
+
+(*
 Finds out version from most recent git tag. 
 Finds assemblyinfo and nuspec files and updates relevant version fields.
 NOTE: it assumes tag naming convention v[\d]+
