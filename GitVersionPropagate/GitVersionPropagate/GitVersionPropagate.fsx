@@ -90,6 +90,11 @@ let adjustments = [
             replacement """<version>[\s\d\.]+</version>""" """<version>%s</version>"""
         ]
     }
+    {FileRule.FileName = Regex "(?i)\.[cf]sproj"; Substitutes = 
+        [
+            replacement """<Version>[\s\d\.]+</Version>""" """<Version>%s</Version>"""
+        ]
+    }
 ]
 
 let dirsToIgnore path = 
